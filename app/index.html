@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>lotto</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
+    <!-- endbuild -->
+    
+  </head>
+  <body>
+    <h1>Lotto generator</h1>
+    <h2>Wprowadź swoje liczby</h2>
+    <div class="numbers">
+      <input type="text" id="input1" class="input_default" placeholder="Liczba 1">
+      <input type="text" id="input2" class="input_default" placeholder="Liczba 2">
+      <input type="text" id="input3" class="input_default" placeholder="Liczba 3">
+      <input type="text" id="input4" class="input_default" placeholder="Liczba 4">
+      <input type="text" id="input5" class="input_default" placeholder="Liczba 5">
+      <input type="text" id="input6" class="input_default" placeholder="Liczba 6">
+    </div>
+    <div>
+      <button id="setDigits">chybił trafił</button>
+      <button id="getMoney">Zagraj</button>
+    </div>
+    <div id="results"></div>
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
